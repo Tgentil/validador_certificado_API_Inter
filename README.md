@@ -41,6 +41,13 @@ Certifique-se de ter os seguintes requisitos antes de executar o script:
 
 8. Após a conclusão do processo, uma mensagem de confirmação será exibida.
 
+---
+
+> 9. Alternativamente, você pode usar o executável gerado em [dist/validador.exe](./dist/validador.exe). Basta executar o arquivo `validador.exe` e preencher as informações necessárias na interface gráfica.
+
+> Certifique-se de ter o arquivo `Inter_API_Chave.key` e `Inter_API_Certificado.crt` no mesmo diretório que o executável `validador.exe`.
+
+---
 
 ## Exemplo de Saída:
 ```
