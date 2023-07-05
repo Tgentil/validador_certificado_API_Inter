@@ -1,2 +1,13 @@
 # Ignorar a pasta "debug"
 debug/
+
+# Arquivos gerados pelo PyInstaller
+build/
+*.spec
+
+# Arquivos temporários
+*.pyc
+__pycache__/
+
+# Arquivos de ambiente virtual
+venv/
