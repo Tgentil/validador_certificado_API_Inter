@@ -17,6 +17,25 @@ Certifique-se de ter os seguintes requisitos antes de executar o script:
 - Biblioteca Tkinter instalada (`pip install tkinter`)
 - OpenSSL instalado e configurado corretamente no sistema
 
+## Instalar Openssl no windowns
+
+Para instalar o OpenSSL no Windows, siga os passos abaixo:
+
+1. Abra o PowerShell como administrador.
+
+2. Execute o seguinte comando para permitir a execução de scripts no seu sistema e para instalar o Chocolatey, um gerenciador de pacote:
+   ```powershell
+   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+   ```
+
+3. Em seguida, execute o comando abaixo para instalar o Openssl pelo chocolatey:
+
+   ```powershell
+   choco install openssl
+   ```
+
+Isso irá baixar e instalar o OpenSSL no seu sistema.
+
 ## Utilização
 
 1. Clone o repositório ou faça o download dos arquivos.
