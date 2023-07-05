@@ -1,5 +1,5 @@
 
-## Validador de Certificado da API do Banco Inter
+ # Validador de Certificado da API do Banco Inter
 
 <img align="left" src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%">  
 
@@ -54,7 +54,6 @@ Novo diretório de trabalho: C:\codes\validador_certificado_API_Inter\docs
 - O script utiliza a biblioteca Tkinter para criar a interface gráfica.
 - Certifique-se de fornecer a senha correta no código-fonte (`SENHA = "SUASENHA"`).
 - Este script foi desenvolvido para a validação de certificados da API do Banco Inter.
-- Antes de executar o script, verifique se você possui permissão para executar comandos OpenSSL no seu sistema.
 - Este script foi testado apenas utilizando o windowns 11.
 
 
